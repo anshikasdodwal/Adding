@@ -1,0 +1,110 @@
+
+.brand-text{
+    padding-left: 4px;
+    font-family: 'Dancing Script';
+    font-size: 30px;
+    font-weight: 700;
+    color: #B31312;
+
+}
+.brand-img{
+
+    border-radius: 100%;
+}
+.navbar{
+  background-image: linear-gradient(45deg,#080202,#080202,#B31312);
+    padding-left: 10px;
+    padding-right: 10px;
+    
+
+}
+.navbar-brand{
+    padding-left: 9px;
+
+}
+.nav-link{
+    font-family: 'Inter';
+    padding-right: 30px;
+    padding-left: 15px;
+}
+.nav-item{
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+.navbar-toggler-icon
+{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(255, 255, 255) ' stroke-linecap='round' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.dropdwn{
+    background-color: #080808;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+}
+li:hover {
+   background-color: #CA955C;
+   text-decoration: none;
+   
+}
+.dropdown-item{
+    color: #B31312;
+}
+.flinks{
+    text-decoration: none;
+}
+.text-center{
+    background-image: linear-gradient(45deg,#B31312,#080202);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+h6{
+    font-size: 20px;
+}
+.main{
+    padding-top:39px;
+    height: 76vh;
+    width: 60vw;
+    justify-content: center;
+    margin: auto;
+}
+.wrapper, .slide{
+    height: 76vh;
+    width: 60vw;
+}
+.slide , .image{
+    height: 76vh;
+    width: 60vw;
+}
+@media only screen and (max-width: 500px) and (min-width: 370px) {
+    .main{
+        padding-top: 9px;
+        height: 60vh;
+        width: 80vw;
+        justify-content: center;
+        margin: auto;
+    }
+    .wrapper, .slide{
+        height: 60vh;
+        width: 80vw;
+    }
+    .slide , .image{
+        height: 60vh;
+        width: 80vw;
+    }
+    body{
+    background-image: linear-gradient(90deg,#B31312,#080202,#080202);
+    background-repeat: no-repeat;
+    background-size: 100VW;
+    }
+    
+  }
+
+body{
+    background-image: linear-gradient(90deg,#B31312,#080202,#080202);
+    background-repeat: no-repeat;
+    background-size: 100VW;
+ 
+}
