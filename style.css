@@ -106,5 +106,10 @@ body{
     background-image: linear-gradient(90deg,#B31312,#080202,#080202);
     background-repeat: no-repeat;
     background-size: 100VW;
- 
+}
+footer {
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   width: 100%;
 }
